@@ -552,12 +552,19 @@ h4.sub {
   .hero-text {
     width: 100%;
   }
-  h1.hero-title {
+  h1.heading-1 {
     font-size: 32px;
-    /* width: 100%; */
   }
-  p {
+  p.p-tag {
     font-size: 16px;
+  }
+  h4.heading-4 {
+    font-size: 20px;
+    width: max-content;
+  }
+  .text-2{
+    justify-content: center;
+    align-items: center;
   }
   .menu-item1,
   .menu-item2,
@@ -678,10 +685,6 @@ h4.sub {
   }
 }
 @media only screen and (max-width: 479px) {
-  h1.heading-1 {
-    font-size: 32px;
-  }
-
   .hero-image {
     display: none;
   }
